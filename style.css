@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.game-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(153, 153, 153);
+}
+.number-remembering-game{
+    position: relative;
+    padding: 15px;
+    width: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+.game-form{
+    margin-bottom: 15px;
+}
+.appearing-number {
+    margin: 10px 0;
+    height: 25px;
+}
